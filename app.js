@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-require("../server/src/db/conn");
+require("./src/db/conn"); 
 const User = require('./src/models/userdata');
 const app = express();
 const port = process.env.PORT || 3000;
